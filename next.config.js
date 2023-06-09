@@ -5,6 +5,9 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  images: {
+    domains: ["https://mkeyasu.github.io/web_landing/"],
+  },
 };
 
 module.exports = nextConfig;
